@@ -1,0 +1,73 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 2%;
+}
+
+.box1{
+	width: 100%;
+	height: 100%;
+	background-color: green;
+	position: relative;
+}
+.box1 p{
+	position: absolute;
+	color: yellow;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Myriad Pro';
+	right: 13px;
+	bottom: 13px;
+}
+
+.navigation{
+	position: absolute;
+	top: 37px;
+	left: 37px;
+}
+.nav-li{
+	display: inline-block;
+	margin-right: 57px;
+}
+.nav-a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 48px;
+	font-family: 'Myriad Pro';
+}
+.arrow{
+	position: absolute;
+	right: 37px;
+	top: 37px;
+}
+.box2{
+	width: 620px;
+	height: 450px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.box3{
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box3 p{
+	position: absolute;
+	color: yellow;
+	font-size: 39px;
+	font-family: 'Myriad Pro';
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
